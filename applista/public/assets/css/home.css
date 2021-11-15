@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+        html body{
+            height: 100%;
+            width: 100%;
+            background: rgb(26,32,38);
+        background: radial-gradient(circle, rgb(26,32,38) 5%, rgb(26,32,38) 100%);
+            background-size: contain;
+            background-attachment: fixed;
+        }
+        
+        .contenedor{
+            width: 100%;
+            height: 100%;
+            
+    
+        }
+        .logo{
+            width: 100%;
+            height: 200px;
+            background-image: url(libro.png);
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: invert(70%);
+        }
+        .texto{
+            margin-top: 50px;
+            text-align: center;
+            color:grey;
+            font-family: "IBM Plex Sans", sans-serif;
+        }
+        .textologo{
+        
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-size:xx-large;
+            color: white;
+        }
+        .button{
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 20px;
+            position: relative;
+            padding: 20px 30px;
+            border-radius: 10px;
+            align-items: center;
+            background: #097dea;
+            background: linear-gradient(65deg, #0270D7 0, #0F8AFD 100%);
+            color: white;
+            text-decoration: none;
+        
+        }
